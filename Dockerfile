@@ -12,3 +12,7 @@ RUN mkdir build; \
     cd build; \
     cmake ..; \
     cmake --build .;
+
+WORKDIR /app/build
+
+CMD [ "./requestsBot" ]
