@@ -29,12 +29,12 @@ header_directories(INCLUDES ${PROJECT_SOURCE_DIR}/include/ hpp)
 
 message("src files:")
 foreach(file ${SRCS})
-        message(STATUS ${file})
+    message(STATUS ${file})
 endforeach()
 
 message("include directories:")
 foreach(dir ${INCLUDES})
-        message(STATUS ${dir})
+    message(STATUS ${dir})
 endforeach()
 
 find_package(DPP REQUIRED)
